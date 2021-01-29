@@ -8,6 +8,7 @@
     <title></title>
   </head>
   <body class="debug">
+    <!-- container col1*12 -->
     <div class="container">
       <div class="col-1">
         <div class="text">
@@ -70,6 +71,7 @@
         </div>
       </div>
     </div>
+    <!-- container col12*1 -->
     <div class="container">
       <div class="col-12">
         <div class="text">
@@ -77,6 +79,7 @@
         </div>
       </div>
     </div>
+    <!-- container col8*1 + col2*2 -->
     <div class="container">
       <div class="col-8">
         <div class="text">
@@ -94,6 +97,67 @@
         </div>
       </div>
     </div>
-
+    <!-- container col1*1 + col2*2 + col6*1 + col1*1-->
+    <div class="container">
+      <div class="col-1">
+        <div class="text">
+          1 col
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="text">
+          2 col
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="text">
+          2 col
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="text">
+          6 col
+        </div>
+      </div>
+      <div class="col-1">
+        <div class="text">
+          1 col
+        </div>
+      </div>
+    </div>
+    <!-- container col6*2 -->
+    <div class="container">
+      <div class="col-6 container">
+        <!-- container nested col2*2 + col8*1-->
+        <div class="col-2 nested">
+          <div class="text">
+            Nested 2 col
+          </div>
+        </div>
+        <div class="col-2 nested">
+          <div class="text">
+            Nested 2 col
+          </div>
+        </div>
+        <div class="col-8 nested">
+          <div class="text">
+            Nested 8 col
+          </div>
+        </div>
+      </div>
+      <!-- container nested col6*2 -->
+      <div class="col-6 container">
+        <div class="col-6 nested">
+          <div class="text">
+            Nested 6 col
+          </div>
+        </div>
+        <div class="col-6 nested">
+          <div class="text">
+            Nested 6 col
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
