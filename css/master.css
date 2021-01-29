@@ -1,3 +1,16 @@
+/* common */
+body {
+  font-size: 14px;
+}
+
+/* container */
 .container {
   background-color: rgb(255, 192, 203);
+}
+
+/* testo */
+.text {
+  line-height: 300px;
+  vertical-align: middle;
+  text-align: center;
 }
